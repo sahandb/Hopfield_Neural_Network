@@ -7,6 +7,8 @@ At first I read the all images from train and test then turn them from RGB to gr
 
 After that I train 8 parallel Hopfield network for each column of the resulted images. Each network will have 1024 inputs and 1024 outputs. For training the first network, use the first column of each matrix and the second and …
 
+![image](https://user-images.githubusercontent.com/24508376/219626288-92abd698-97b3-438e-af15-dc58c556949f.png)
+
 
 After that I test the trained nets with test data and get each column to each net and get result and after that stick the 1024x70 of each column together and make 1024x70 8bit test and after that turn that to 70 image 32x32
 
